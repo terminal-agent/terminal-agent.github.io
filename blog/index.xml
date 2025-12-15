@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog on Terminal-Agent</title>
-    <link>https://sailor-agents.github.io/blog/</link>
+    <link>https://terminal-agent.github.io/blog/</link>
     <description>Recent content in Blog on Terminal-Agent</description>
     <image>
-      <url>https://sailor-agents.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://sailor-agents.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://terminal-agent.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://terminal-agent.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Dec 2025 12:00:00 +0800</lastBuildDate><atom:link href="https://sailor-agents.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Dec 2025 12:00:00 +0800</lastBuildDate><atom:link href="https://terminal-agent.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>On Policy Annotation: Minimal Human Edits Unlock Massive Gains in LLM Agents</title>
-      <link>https://sailor-agents.github.io/blog/annotation/</link>
+      <link>https://terminal-agent.github.io/blog/annotation/</link>
       <pubDate>Mon, 15 Dec 2025 12:00:00 +0800</pubDate>
       
-      <guid>https://sailor-agents.github.io/blog/annotation/</guid>
-      <description>&lt;a href=&#34;https://github.com/Sailor-Agents/Terminal-Agents&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;GITHUB&lt;/a&gt;
+      <guid>https://terminal-agent.github.io/blog/annotation/</guid>
+      <description>&lt;a href=&#34;https://github.com/terminal-agent/reptile&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;GITHUB&lt;/a&gt;
 &lt;h2 id=&#34;1-the-need-for-a-fast-system-in-terminal-based-swe-data-collection&#34;&gt;1. The Need for a Fast System in Terminal-Based SWE Data Collection&lt;/h2&gt;
 &lt;p&gt;In terminal-based SFT data collection for software engineering (SWE) tasks, system responsiveness is a crucial determinant of both data efficiency and data quality. For annotators who are not proficient with command-line interfaces, two fundamental issues—slow typing speed and difficulty recalling commands—create significant friction in the labeling process.&lt;/p&gt;
 &lt;p&gt;First, &lt;strong&gt;the interaction cost of terminal input is inherently high&lt;/strong&gt;. Unlike graphical interfaces that offer affordances such as buttons, menus, or auto-completion, &lt;em&gt;terminals rely entirely on textual command entry&lt;/em&gt;. Each operation requires the annotator to &lt;strong&gt;recall and retype precise commands and parameters, often under the risk of syntax errors&lt;/strong&gt;. When annotators frequently make syntax or command errors due to limited terminal proficiency, the repeated cycles of editing, rerunning, and verifying become time-consuming and mentally exhausting, causing substantial inefficiency and fatigue throughout the labeling process.&lt;/p&gt;</description>
@@ -25,11 +25,11 @@
     
     <item>
       <title>Reptile: Terminal-Agent with Human-in-the-loop Learning</title>
-      <link>https://sailor-agents.github.io/blog/workflow/</link>
+      <link>https://terminal-agent.github.io/blog/workflow/</link>
       <pubDate>Mon, 15 Dec 2025 12:00:00 +0800</pubDate>
       
-      <guid>https://sailor-agents.github.io/blog/workflow/</guid>
-      <description>&lt;a href=&#34;https://github.com/Sailor-Agents/Terminal-Agents&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;GITHUB&lt;/a&gt;
+      <guid>https://terminal-agent.github.io/blog/workflow/</guid>
+      <description>&lt;a href=&#34;https://github.com/terminal-agent/reptile&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;GITHUB&lt;/a&gt;
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;We propose &lt;strong&gt;Reptile&lt;/strong&gt;, a terminal agent that operates under an extended &lt;strong&gt;REPL (Read-Execute-Print-Learn)&lt;/strong&gt; protocol, where human feedback is seamlessly integrated into the agent&amp;rsquo;s execution loop.&lt;/p&gt;
 &lt;p&gt;Unlike traditional REPL (Read-Execute-Print-Loop) environments that focus solely on code evaluation, our REPL protocol emphasizes the iterative cycle of human-agent collaboration, transforming the terminal from a passive command executor into an interactive learning environment.&lt;/p&gt;
@@ -43,10 +43,10 @@
     
     <item>
       <title>Terminal: LLM’s Last Tool</title>
-      <link>https://sailor-agents.github.io/blog/tool/</link>
+      <link>https://terminal-agent.github.io/blog/tool/</link>
       <pubDate>Wed, 15 Oct 2025 12:00:00 +0800</pubDate>
       
-      <guid>https://sailor-agents.github.io/blog/tool/</guid>
+      <guid>https://terminal-agent.github.io/blog/tool/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/sail-sg/tty-use&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;GITHUB&lt;/a&gt;
 &lt;a href=&#34;https://x.com/mavenlin/status/1977758827366817929&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;TWITTER&lt;/a&gt;
 &lt;a href=&#34;https://tinyurl.com/vrwcmpks%20&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;NOTION-Version&lt;/a&gt;&lt;/p&gt;
