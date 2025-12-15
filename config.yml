@@ -257,10 +257,10 @@ menu:
       name: Blog
       url: /blog/
       weight: 20
-    # - identifier: publication
-    #   name: Publication
-    #   url: /publication
-    #   weight: 30
+    - identifier: github
+      name: Github
+      url: https://github.com/Sailor-Agents/Terminal-Agents
+      weight: 30
     - identifier: about
       name: About
       url: /about
