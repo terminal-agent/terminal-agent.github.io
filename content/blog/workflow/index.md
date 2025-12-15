@@ -51,17 +51,17 @@ Unlike traditional REPL (Read-Execute-Print-Loop) environments that focus solely
 </figure>
 
 
+This blog focus on **workflow** and **evaluation**. We detail the **on-policy annotation** and **SFT training** in https://reptile.github.io/blog/annotation/
+
+
 ## Insights
 
-<!-- **Topic**: Terminal is universal enough but Terminal-Agent is super challenging, which is a promising testbed to push the limits of agent research.  -->
 
 **Workflow**: Build the universal action space for the LLM, reserving specialized workflows only for high-risk operations.
 
 **Evaluation**: Focus on learning efficiency on meta-actions like inspecting file in right way, besides end2end benchmark, which makes the optimization more trackable.
 
-**Annotation**: Correct Agent's behaviour like PDB Debugging, which enjoys stateful re-run and on-policy prediction.
-
-This blog focus on Scaffold and Evaluation. We detail the on-policy Annotation in https://reptile.github.io/blog/annotation/
+**Annotation**: Correct Agent's behaviour with clever annotation (like use PDB Debugging for coding), which enjoys stateful re-run and on-policy prediction.
 
 ## First Target Milestone
 
@@ -158,7 +158,7 @@ Usage of the data
 ![image](https://hackmd.io/_uploads/SJF1dfTMbe.png)
 
 
-We annotate the tasks on [SWEgym](https://huggingface.co/SWE-Gym), it improves Devstral-2505-22B after training with 200 interactions:
+We annotate tasks on [SWEgym](https://huggingface.co/SWE-Gym). After training with 200 interactions, this improves Devstral-2505-22B performance:
 
 - [Terminal-bench](https://www.tbench.ai/): 11.3% -> 18.9%
 - [SWE-Bench-Verified](https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified): 18.6 -> 32.8%
@@ -170,12 +170,12 @@ We annotate the tasks on [SWEgym](https://huggingface.co/SWE-Gym), it improves D
 We are actively working on several exciting directions:
 
 
-### 1. Agent Gym for RL Training
-We've built an **Terminal Gym** that provides a structured environment for reinforcement learning.
-This includes (1) procise reward modeling (2) robust and scalable dockerized envs.
+### 1. Terminal Gym for RL Training
+We aim to build an **Terminal Gym** that provides a structured environment for reinforcement learning.
+This includes (1) procise reward modeling (2) robust and scalable dockerized envs (3) easy-to-hard task sets.
 
 ### 2. Advanced Learning Algorithms
-Exploring offline RL, imitation learning, and other techniques to improve sample efficiency and reduce the need for human supervision.
+We are exploring offline RL, imitation learning, and other techniques to improve sample efficiency for extra-long agent trajectories (>30K length) and ultimately reduce the need for human supervision.
 
 
 ## Open Source & Community
