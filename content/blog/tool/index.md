@@ -171,7 +171,7 @@ Everything that LLM needs, file editing, searching, emailing, can be just anothe
 ```
 @misc{reptile2025tool,
   title={Terminal: LLM’s Last Tool},
-  author={Lin, Min},
+  author={Lin, Min and Liu, Zichen},
   year={2025},
   howpublished={\url{https://terminal-agent.github.io/blog/tool/}},
   note={Blog},

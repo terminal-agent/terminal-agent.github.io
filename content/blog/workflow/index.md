@@ -211,7 +211,7 @@ If you find Reptile useful in your research or applications, please cite:
 
 ```bibtex
 @misc{reptile2025workflow,
-  title={Reptile: Terminal-Agent with REPL-based Human-in-the-loop Learning},
+  title={Reptile: Terminal-Agent with Human-in-the-loop Learning},
   author={Dou, Longxu and Li, Shenggui and Du, Cunxiao and Wang, Tianduo and Zhang, Tianjie and Liu, Tianyu and Chen, Xianwei and Tang, Chenxia and Zhao, Yuanheng and Lin, Min},
   year={2025},
   howpublished={\url{https://terminal-agent.github.io/blog/workflow/}},
