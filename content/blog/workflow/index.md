@@ -87,7 +87,7 @@ Compared with other CLI agents (e.g., Claude Code and Mini SWE-Agent), Reptile s
 </tr>
 <tr>
   <td>
-    <a href="https://terminal-agent.github.io/reptile/basic_usage/evaluation.html"><strong>Batch Evaluation</strong></a>
+    <a href="https://terminal-agent.github.io/reptile/basic_usage/evaluation.html"><strong>Batch Evaluation</strong></a> (<code>autopilot evaluate</code>)
   </td>
   <td>
     <a href="https://github.com/terminal-agent/reptile/blob/main/tools/webTrajViewer.html"><strong>Trajectory Viewer</strong></a>
