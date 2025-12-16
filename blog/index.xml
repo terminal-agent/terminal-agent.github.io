@@ -38,7 +38,8 @@
 &lt;figure style=&#34;text-align: center; margin: 1rem 0;&#34;&gt;
   &lt;img src=&#34;https://hackmd.io/_uploads/SkGiD2BWWl.png&#34; style=&#34;width: 60%; display: block; margin: 0 auto;&#34;&gt;
 &lt;/figure&gt;
-&lt;p&gt;This blog focus on &lt;strong&gt;workflow&lt;/strong&gt; and &lt;strong&gt;evaluation&lt;/strong&gt;. We detail the &lt;strong&gt;on-policy annotation&lt;/strong&gt; and &lt;strong&gt;SFT training&lt;/strong&gt; in &lt;a href=&#34;https://terminal-agent.github.io/blog/annotation/&#34;&gt;https://terminal-agent.github.io/blog/annotation/&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;h2 id=&#34;what-makes-reptile-special&#34;&gt;What Makes Reptile Special?&lt;/h2&gt;
+&lt;p&gt;Compared with other CLI agents (e.g., Claude Code and Mini SWE-Agent), Reptile stands out for the following reasons:&lt;/p&gt;</description>
     </item>
     
     <item>
