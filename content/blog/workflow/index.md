@@ -48,7 +48,7 @@ Unlike traditional REPL (Read-Execute-Print Loop) environments that focus solely
 
 
 <figure style="text-align: center; margin: 1rem 0;">
-  <img src="https://hackmd.io/_uploads/SkGiD2BWWl.png" style="width: 60%; display: block; margin: 0 auto;">
+  <img src="https://hackmd.io/_uploads/Syidwml7be.png" style="width: 60%; display: block; margin: 0 auto;">
 </figure>
 
 
@@ -175,7 +175,7 @@ Human-in-the-loop isn't just for runtime—it's also central to our data collect
 
 
 <figure style="text-align: center; margin: 1rem 0;">
-  <img src="https://hackmd.io/_uploads/r1G2tMpG-g.png" style="width: 60%; display: block; margin: 0 auto;">
+  <img src="https://hackmd.io/_uploads/B1ZEDXe7-e.png" style="width: 65%; display: block; margin: 0 auto;">
 </figure>
 
 
